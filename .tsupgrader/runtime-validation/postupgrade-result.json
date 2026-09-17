@@ -1,0 +1,38 @@
+{
+  "planHash": "314f380765dfe3643762869c7781b8eb87eab9913fe891efad036a89616b056a",
+  "phase": "postupgrade",
+  "recordedAtUtc": "2026-09-10T19:30:31.7895936Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 4318,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "tsc-no-emit",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "npm notice run bookified@0.1.0 npx\r\nnpm notice run tsc --noEmit\r\n",
+        "durationMs": 6441
+      },
+      {
+        "name": "dev-server-serves-home",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\u003Chtml lang=\u0022en\u0022\u003E\u003Chead\u003E\u003Cmeta charSet=\u0022utf-8\u0022/\u003E\u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1\u0022/\u003E\u003Clink rel=\u0022stylesheet\u0022 href=\u0022/_next/static/chunks/%5Broot-of-the-server%5D__0_3zvpu._.css\u0022 data-precedence=\u0022next_static/chunks/[root-of-the-server]__0_3zvpu._.css\u0022/\u003E\u003Clink rel=\u0022preload\u0022 as=\u0022script\u0022 fetchPriority=\u0022low\u0022 href=\u0022/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1di75ot._.js\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_next-devtools_index_090k2jm.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-dom_096_9a-._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_react-server-dom-turbopack_164kp-6._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_compiled_1amofcm._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_client_0_90u2t._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_1e8vcs8._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_%40swc_helpers_cjs_1r9vbqw._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_1anvha4._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/turbopack-_08bm286._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_219uq1s._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_06c8hrv._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/_1opwt96._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Ctitle\u003EBookified\u003C/title\u003E\u003Cmeta name=\u0022description\u0022 content=\u0022Transform your books into a interactive AI conversations. Upload PDFs, and chat with your books with voice.\u0022/\u003E\u003Clink rel=\u0022icon\u0022 href=\u0022/favicon.ico?favicon.2vob68tjqpejf.ico\u0022 sizes=\u0022256x256\u0022 type=\u0022image/x-icon\u0022/\u003E\u003Cmeta name=\u0022next-size-adjust\u0022 content=\u0022\u0022/\u003E\u003Cscript src=\u0022/_next/static/chunks/node_modules_next_dist_build_polyfills_polyfill-nomodule.js\u0022 noModule=\u0022\u0022\u003E\u003C/script\u003E\u003C/head\u003E\u003Cbody class=\u0022ibm_plex_sans_d98d6973-module__J1jo6a__variable mona_sans_f6b1400b-module__KQdJPa__variable relative font-sans antialiased\u0022\u003E\u003Cdiv hidden=\u0022\u0022\u003E\u003C!--$--\u003E\u003C!--/$--\u003E\u003C/div\u003E\u003Cheader class=\u0022w-full fixed z-50 bg-(\u0026#x27;--bg-primary\u0026#x27;)\u0022\u003E\u003Cdiv class=\u0022wrapper navbar-height py-4 flex justify-between items-center\u0022\u003E\u003Ca class=\u0022flex gap-0.5 items-center\u0022 href=\u0022/\u0022\u003E\u003Cimg alt=\u0022Bookified Logo\u0022 loading=\u0022lazy\u0022 width=\u002242\u0022 height=\u002226\u0022 decoding=\u0022async\u0022 data-nimg=\u00221\u0022 style=\u0022color:transparent\u0022 srcSet=\u0022/_next/image?url=%2Fassets%2Flogo.png\u0026amp;w=48\u0026amp;q=75 1x, /_next/image?url=%2Fassets%2Flogo.png\u0026amp;w=96\u0026amp;q=75 2x\u0022 src=\u0022/_next/image?url=%2Fassets%2Flogo.png\u0026amp;w=96\u0026amp;q=75\u0022/\u003E\u003Cspan class=\u0022logo-text\u0022\u003EBookified\u003C/span\u003E\u003C/a\u003E\u003Cnav class=\u0022w-fit flex gap-7.5 items-center\u0022\u003E\u003Ca class=\u0022nav-link-base nav-link-active\u0022 href=\u0022/\u0022\u003ELibrary\u003C/a\u003E\u003Ca class=\u0022nav-link-base text-black hover:opacity-70\u0022 href=\u0022/books/new\u0022\u003EAdd Book\u003C/a\u003E\u003C/nav\u003E\u003C/div\u003E\u003C/header\u003E\u003Cdiv\u003E\u003C/div\u003E\u003C!--$--\u003E\u003C!--/$--\u003E\u003Cscript id=\u0022_R_\u0022\u003Eself.__next_r=\u0022eq1eSHY-kSdYhc0Er_kMz\u0022;if(document.cookie.indexOf(\u0027next-instant-navigation-testing=\u0027)\u003E-1){self.__next_instant_test=fetch(location.pathname\u002B\u0027?_rsc=xhdorIanPcIpYSsE\u0027,{credentials:\u0027same-origin\u0027,headers:{\u0027rsc\u0027:\u00271\u0027,\u0027next-router-prefetch\u0027:\u00271\u0027,\u0027next-router-segment-prefetch\u0027:\u0027/_full\u0027}})}\u003C/script\u003E\u003Cscript src=\u0022/_next/static/chunks/%5Bturbopack%5D_browser_dev_hmr-client_hmr-client_ts_1di75ot._.js\u0022 async=\u0022\u0022\u003E\u003C/script\u003E\u003Cscript\u003E(self.__next_f=self.__next_f||[]).push([0])\u003C/script\u003E\u003Cscript\u003Eself.__next_f.push([1,\u00229:I[\\\u0022[project]/node_modules/next/dist/next-devtools/userspace/app/segment-explorer-node.js [app-client] (ecmascript)\\\u0022,[\\\u0022/_next/static/chunks/node_modules_06c8hrv._.js\\\u0022,\\\u0022/_next/static/chunks/_1opwt96._.js\\\u0022],\\\u0022SegmentViewNode\\\u0022]\\nb:\\\u0022$Sreact.fragment\\\u0022\\n1e:I[\\\u0022[project]/components/Navbar.tsx [app-client] (ecmascript)\\\u0022,[\\\u0022/_next/static/chunks/node_modules_06c8hrv._.js\\\u0022,\\\u0022/_next/static/chunks/_1opwt96._.js\\\u0022],\\\u0022default\\\u0022]\\n20:I[\\\u0022[project]/node_modules/next/dist/client/components/layout-router.js [app-client] (ecmascript)\\\u0022,[\\\u0022/_next/static/chunks/node_modules_06c8hrv._.js\\\u0022,\\\u0022/_next/static/chunks/_1opwt96._.js\\\u0022],\\\u0022default\\\u0022]\\n22\n\u2026[truncated]",
+        "durationMs": 108
+      }
+    ]
+  }
+}
